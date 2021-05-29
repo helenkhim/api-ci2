@@ -26,9 +26,9 @@
       "balance": {
         "type": "integer"
       },
-      "currency": {
-        "type": "string"
+      "currency": { "enum": ["RUB", "USD"] }
+
+
       }
     }
   }
-}
